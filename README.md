@@ -85,12 +85,13 @@ dotnet publish -c Release -r win-x64 --self-contained true
 
 ## 🎓 Contexte
 
-Application développée pour les étudiants **IC3 IT** (Infrastructures et Conception des Constructions - Informatique et Technologies) de l'**ESTP**.
+Application développée pour les étudiants **IC3 IT** (Infrastructures & Transport) de l'Ecole Supérieure des Travaux Publics **ESTP**.
 
 ## 👨‍💻 Auteur
 
-**Développé par un étudiant IC3 IT - ESTP**
+Développée par **KOUADIO KOFFI PRINCE JUNIOR BERTRAND** - Étudiant IC3 IT - Promotion 2023/2026
 - GitHub : [@royau9me](https://github.com/royau9me)
+- Email : kouadiokoffiprince2@gmail.com
 
 ## 📄 Licence
 
