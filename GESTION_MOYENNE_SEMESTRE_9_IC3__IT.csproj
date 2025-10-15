@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<RootNamespace>GESTION_MOYENNE_SEMESTRE_9_IC3__IT</RootNamespace>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Company>ESTP - IC3 IT</Company>
+		<Product>GESTION MOYENNE SEMESTRE 9</Product>
+		<Version>1.0.0</Version>
+		<NoWarn>NU1701</NoWarn>
+		<StartupObject></StartupObject>
+		<ApplicationIcon>photo AI-modified.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="photo AI-modified.png" />
+		<None Remove="photo AI-modified.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="photo AI-modified.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+	<!-- PACKAGES -->
+	<ItemGroup>
+		<PackageReference Include="itext7" Version="9.3.0" />
+		<PackageReference Include="itext7.bouncy-castle-adapter" Version="9.3.0" />
+		<PackageReference Include="ClosedXML" Version="0.105.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+		<PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.10" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="9.0.10" />
+	</ItemGroup>
+
+	<!-- DOSSIERS -->
+	<ItemGroup>
+		<Folder Include="Exports\Excel\" />
+		<Folder Include="Exports\TXT\" />
+		<Folder Include="Exports\PDF\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="appsettings.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+</Project>
